@@ -17,6 +17,4 @@ public class HandlerTest {
 
         assertThat(handler.nextHandler).isSameAs(nextHandler);
     }
-
-
 }
