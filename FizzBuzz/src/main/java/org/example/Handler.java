@@ -8,6 +8,6 @@ public abstract class Handler {
 
     public Handler setNext(Handler handler) {
         this.nextHandler = handler;
-        return handler;
+        return this;
     }
 }

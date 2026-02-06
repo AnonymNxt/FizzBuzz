@@ -25,7 +25,6 @@ public class FizzBuzzTest {
         assertThat(fizzBuzz.start(1).equals("1"));
     }
 
-
     @Test
     void start_shouldReturnOneTwo_whenMethodeIsCalledWithNumberTwo() {
         when(handler.handle(1)).thenReturn("1");

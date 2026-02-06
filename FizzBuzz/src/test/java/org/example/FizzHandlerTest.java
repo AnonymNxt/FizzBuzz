@@ -19,7 +19,7 @@ public class FizzHandlerTest {
     }
 
     @Test
-    void testHandle_WhenNumberIsDivisibleBy3And5_ReturnsFizzBuzz() {
+    void handle_shouldReturnFizz_whenNumberIsDivisibleByThree() {
         int number = 3;
 
         String result = handler.handle(number);
@@ -28,7 +28,7 @@ public class FizzHandlerTest {
     }
 
     @Test
-    void testHandle_WhenNumberIsNotDivisibleBy3And5_CallsNextHandler() {
+    void handle_shouldCallNextHandler_whenNumberIsNotDivisibleByThree() {
         int number = 7;
 
         String result = handler.handle(number);
